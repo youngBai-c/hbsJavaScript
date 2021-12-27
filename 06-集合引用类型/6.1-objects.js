@@ -42,9 +42,9 @@ displayInfo({
 console.log(person['name']);
 console.log(person.name);
 
-//通过变量访问值
+//通过变量访问属性
 let propertyName = 'name';
-console.log(propertyName);
+console.log(person[propertyName]);
 
 //错误写法：属性字符包含空格只能用[]
 // person.first name // //Error
